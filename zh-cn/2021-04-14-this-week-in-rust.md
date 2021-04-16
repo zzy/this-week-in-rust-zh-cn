@@ -139,14 +139,6 @@ Rust 的改进遵循 [RFC（request for comments）流程](https://github.com/ru
 
 # 本周引语
 
-我知道我的JWT令牌不会被变异，只是被访问（&）；
-
-我知道函数可能会执行某种I/O（异步）；
-
-我知道函数可能会失败（结果）；
-
-我知道它的故障模式（验证错误）。
-
 > 每天，我在 \[rust is\] 中真正看重的是：我可以放心调用其他人的代码，而不产生令人不快的“惊喜”。
 > ```
 > async fn verify_signature(token: &Jwt) -> Result<Claims, VerificationError>
