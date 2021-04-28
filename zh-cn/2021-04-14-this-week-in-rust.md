@@ -3,7 +3,7 @@
 > [Rust 官方周报（中文版）仓库为 github.com/zzy/this-week-in-rust-zh-cn](https://github.com/zzy/this-week-in-rust-zh-cn)，欢迎您的参与，一起丰富中文网络的 Rust 资源。 
 
 
-大家好，欢迎查阅第 386 期《Rust 周报》！[Rust](http://rust-lang.budshome.com) 是一种系统语言，主要追求三个要素：安全性、并发性，以及高性能。本文是其开发进展和社区生态的每周摘要。如果您想提出意见或建议，请在推特联系我们账号 [@ThisWeekInRust](https://twitter.com/ThisWeekInRust)，或者在 github 向我们[发送 PR](https://github.com/rust-lang/this-week-in-rust)。想参与吗？我们[期待您的贡献](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md)。
+大家好，欢迎查阅第 386 期《Rust 周报》！[Rust](http://rust-lang.budshome.com) 是一门系统编程语言，专注于三个要素：安全性、并发性，以及高性能。本文是其开发进展和社区生态的每周摘要。如果您想提出意见或建议，请在推特联系我们账号 [@ThisWeekInRust](https://twitter.com/ThisWeekInRust)，或者在 github 向我们[发送 PR](https://github.com/rust-lang/this-week-in-rust)。想参与吗？我们[期待您的贡献](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md)。
 
 # Rust 社区更新
 
@@ -19,7 +19,7 @@
 
 ![Rust veloren game](https://blog.budshome.com/static/articles/1618536523.jpg)
 
-### 项目/工具 更新
+### 项目/工具更新
 * [基于 Cranelift 的 rustc 代码生成后端（rustc_codegen_cranelift）进展报告（2021 年 4 月）](https://bjorn3.github.io/2021/04/13/progress-report-april-2021.html)
 * [IntelliJ Rust：2021.1 更新版发布](https://blog.jetbrains.com/rust/2021/04/08/intellij-rust-updates-for-2021-1/)
 * [IntelliJ Rust 更新日志 #145](https://intellij-rust.github.io/2021/04/12/changelog-145.html)
@@ -32,7 +32,7 @@
 * [Rust 语言中，让异步函数和同步函数匹配，不是什么大问题](https://morestina.net/blog/1686/rust-async-is-colored)（译注：原标题使用了 `Rust async is colored`，这个 `colored` 源自 JavaScript，比喻 JavaScript 和其它语言中，同步函数和异步函数那些令人痛苦的不匹配难题）
 * [使用 Rust 进行科学计算：从经验中学习总结](https://blog.esciencecenter.nl/using-rust-for-scientific-numerical-applications-learning-from-past-experiences-798665d9f9f0)
 * [PlaintDB - 新的里程碑](https://dev.to/ecton/plaintdb-serves-another-milestone-reached-kl3)（译注：作者很有信心，计划用 PlaintDB 取代 PostgreSQL 和 Redis）
-* [为什么应将 Rust 用于机器人平台？](https://dev.to/tangramvision/why-rust-for-robots-4nmd)
+* [为什么应将 Rust 用于机器人平台？](https://blog.budshome.com/budshome/wei-shi-yao-ying-jiang-rust-yin-ru-ji-qi-ren-ping-tai-yi-ji-ji-qi-ren-ping-tai-de-rust-zi-yuan-tui-jian)
 * [nalgebra 0.26 中整合常量泛型（const-generics）的实践](https://www.dimforge.com/blog/2021/04/12/integrating-const-generics-to-nalgebra/)（nalgebra 是 Rust 实现的线性代数库）
 * [播客] [使用 Rust 进行构建：Tim McNamara 讲解《Rust in Action》](https://anchor.fm/building-with-rust/episodes/Building-with-Rust-Tim-McNamara-on-Rust-in-Action-eugoal/a-a1ptlh) [[文字实录]](https://github.com/seanchen1991/building-with-rust/blob/main/transcripts/002.md)
 
@@ -67,7 +67,7 @@
 
 即使缺少提名，但 llogiq（译注：周报编辑人员之一）对自己的选择非常满意。
 
-[关于下周最佳 crate，请您提议，并投票!][submit_crate]!
+[关于下周最佳 crate，请您提议，并投票!][submit_crate]！
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
@@ -157,7 +157,7 @@ Rust 的改进遵循 [RFC（request for comments）流程](https://github.com/ru
 
 [欢迎提交下周引语！](https://users.rust-lang.org/t/twir-quote-of-the-week/328)
 
-*Rust 周报编辑人员：[nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq)、[cdmistman](https://github.com/cdmistman).*
+*Rust 周报编辑人员：[nellshamrell](https://github.com/nellshamrell), [llogiq](https://github.com/llogiq)、[cdmistman](https://github.com/cdmistman)。*
 
 谢谢您的阅读！
 
