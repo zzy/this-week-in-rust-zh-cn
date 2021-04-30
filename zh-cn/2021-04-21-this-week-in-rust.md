@@ -2,7 +2,6 @@
 
 > [Rust 官方周报（中文版）仓库为 github.com/zzy/this-week-in-rust-zh-cn](https://github.com/zzy/this-week-in-rust-zh-cn)，欢迎您的参与，一起丰富中文网络的 Rust 资源。 
 
-
 大家好，欢迎查阅第 387 期《Rust 周报》！[Rust](http://rust-lang.budshome.com) 是一门系统编程语言，专注于三个要素：安全性、并发性，以及高性能。本文是其开发进展和社区生态的每周摘要。如果您想提出意见或建议，请在推特联系我们账号 [@ThisWeekInRust](https://twitter.com/ThisWeekInRust)，或者在 github 向我们[发送 PR](https://github.com/rust-lang/this-week-in-rust)。想参与吗？我们[期待您的贡献](https://github.com/rust-lang/rust/blob/master/CONTRIBUTING.md)。
 
 # Rust 社区更新
@@ -66,7 +65,7 @@
 
 谢谢 [Joey Ezechiëls](https://users.rust-lang.org/t/crate-of-the-week/2704/904) 的提议。
 
-[关于下周最佳 crate，请您提议，并投票!][submit_crate]！
+[关于下周最佳 crate，请您提议，并投票][submit_crate]！
 
 [submit_crate]: https://users.rust-lang.org/t/crate-of-the-week/2704
 
@@ -82,7 +81,7 @@
 
 # Rust 核心更新
 
-[292 PR 在上周被合并][merged]
+[292 PRs 在上周被合并][merged]
 
 [merged]: https://github.com/search?q=is%3Apr+org%3Arust-lang+is%3Amerged+merged%3A2021-04-12..2021-04-19
 
