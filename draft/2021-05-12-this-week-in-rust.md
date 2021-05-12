@@ -19,14 +19,26 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
+* [Knurling-rs changelog #24: three releases, `defmt-test` supports more items and a nasty issue 🦬](https://ferrous-systems.com/blog/knurling-changelog-24/)
+
+* [This Week In TensorBase 2](https://tensorbase.io/thisweek/2021-05-10-tw_2/)
+
+* [Naga shader translation benchmark](https://gfx-rs.github.io/2021/05/09/dota2-msl-compilation.html)
 
 ### Observations/Thoughts
+* [Rust on the Frontend and Backend](https://blog.abor.dev/p/moonzoon)
+* [Why we should consider Rust for Embedded Developement?](https://blog.knoldus.com/why-rust-for-embedded-development/)
 
 ### Rust Walkthroughs
+
+* [BABE – Consensus Algorithm and How to Implement it](https://blog.knoldus.com/babe-consensus-algorithm-and-how-to-implement-it-in-our-runtime/)
+* [Pallets in Substrate and using them in runtime.](https://blog.knoldus.com/pallets-in-substrate-and-using-them-in-runtime/)
+* [video] [Graphs in Rust: What is a Graph? Representing them in Rust](https://youtu.be/3DLrUNbKhjQ)
 
 ### Papers/Research Projects
 
 ### Miscellaneous
+[Building Rust binaries in CI that work with older GLIBC](https://kobzol.github.io/rust/ci/2021/05/07/building-rust-binaries-in-ci-that-work-with-older-glibc.html)
 
 # Crate of the Week
 
@@ -149,6 +161,13 @@ Email the [Rust Community Team][community] for access.
 # Rust Jobs
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
+
+**TrueLayer**
+
+* [Rust Backend Engineer at TrueLayer (London, UK)](https://apply.workable.com/truelayer/j/D07759DAF6/)
+* [Rust Backend Engineer at TrueLayer (Milan, Italy)](https://apply.workable.com/truelayer/j/F13E839E3B/)
+* [Rust Engineering Lead at TrueLayer (London, UK)](https://apply.workable.com/truelayer/j/3B78A6F6F4/)
+* [Rust Engineering Lead at TrueLayer (Milan, Italy)](https://apply.workable.com/truelayer/j/8D8D56C09E/)
 
 # Quote of the Week
 
