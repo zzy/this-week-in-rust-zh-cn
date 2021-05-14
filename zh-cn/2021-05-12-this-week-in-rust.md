@@ -33,7 +33,7 @@
 
 ### 观测/思考
 * [将 Rust 用在前端和后端](https://blog.abor.dev/p/moonzoon)（译注：MoonZoon 作者 Martin Kavík 的访谈，MoonZoon 演示看起来还不错，作者说其是 `NO Javascript、NO CSS、NO HTML、NO REST、NO GraphQL、NO SQL、NO Analysis Paralysis、NO Wheel Reinventing、NO Passwords*` 的 Rust 全栈开发框架）
-* [为什么我们应当考虑将 Rust 用在嵌入式开发中？](https://blog.knoldus.com/why-rust-for-embedded-development/)（译注：译者最近在关注 Rust 嵌入式开发，此文给了不少信心）
+* [为什么我们应当将 Rust 用于嵌入式开发？](https://blog.budshome.com/budshome/wei-shi-yao-wo-men-ying-dang-jiang-rust-yong-yu-qian-ru-shi-kai-fa--)
 * [编写地道的（idiomatic）Rust 代码](https://shane-o.dev/blog/aiming-for-idiomatic-rust)
 * [使用 Rust 优化 7000 个 CPUs](https://medium.com/tenable-techblog/optimizing-700-cpus-away-with-rust-dc7a000dbdb2)
 * [通过 Bors 提升我们开发时的信心和效率](https://www.fluvio.io/blog/2021/05/bors-confident-merges/)（译注：此处说的 Bors 是一个 github 的应用/bot，用于将 PR 整合到 master 分支）
