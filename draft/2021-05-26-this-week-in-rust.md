@@ -20,13 +20,19 @@ No newsletters or research papers this week.
 
 ### Project/Tooling Updates
 
+* [This Week In TensorBase 4](https://tensorbase.io/thisweek/2021-05-26-tw_4/)
+
 ### Observations/Thoughts
 
 + [Why and how we wrote a compiler in Rust (blog post series 1/X): the context](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-1-x-the-context-e2f83b10edb9)
 
 ### Rust Walkthroughs
+- [Creating an Infinite Mixture Model in Rust with the rv crate](https://redpoll.ai/blog/imm-with-rv-12/)
 - [Debug rust application inside container](https://blog.erebe.dev/blog/debug-rust-aplication-inside-container/index.html)
+- [ZH] [Practice of web crawling with async Rust (使用 Rust 做异步数据采集的实践)](https://blog.budshome.com/budshome/shi-yong-rust-zuo-yi-bu-shu-ju-cai-ji-de-shi-jian)
 ### Miscellaneous
+
+- [Rust Web Development - MEAP](https://www.manning.com/books/rust-web-development)
 
 # Crate of the Week
 
@@ -87,17 +93,15 @@ If you are a Rust project owner and are looking for contributors, please submit 
 
 ## Rust Compiler Performance Triage
 
-A lot of noise in the benchmark results this week. We are discussing ([zulip archive](https://zulip-archive.rust-lang.org/247081tcompilerperformance/06104coercionsdebugnoise.html), [live zulip](https://rust-lang.zulipchat.com/#narrow/stream/247081-t-compiler.2Fperformance/topic/coercions-debug.20noise)) how best to update the benchmark set to eliminate the noisy cases that are bouncing around. Beyond that, some large improvements to a few individual benchmarks.
+A somewhat quiet week. Some PRs had performance runs performed on them, but the changes were merged despite this. Also, we still have issues with certain benchmarks being noisy. 
 
-The memory usage ([max-rss](https://perf.rust-lang.org/?start=2021-05-11&end=2021-05-18&absolute=true&stat=max-rss)) seemed largely flat. Except for an upward trend on `tuple-stess` that indicates 4% more memory from a week ago.
+Triage done by **@rylev**.
+Revision range: [25a277..cdbe2](https://perf.rust-lang.org/?start=25a277f03df7e44643ddfcc240d034409cb2f505&end=cdbe2888979bb8797b05f0d58a6f6e60753983d2&absolute=false&stat=instructions%3Au)
 
-Triage done by **@pnkfelix**.
-Revision range: [382f..25a2](https://perf.rust-lang.org/?start=382f748f23979e37e3e012b090e5a0313463f182&end=25a277f03df7e44643ddfcc240d034409cb2f505&absolute=false&stat=instructions%3Au)
+2 Regressions, 2 Improvements, 1 Mixed
+0 of them in rollups
 
-5 Regressions, 7 Improvements, 2 Mixed
-1 of them in rollups
-
-[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-05-18.md).
+[Full report here](https://github.com/rust-lang/rustc-perf/blob/master/triage/2021-05-25.md).
 
 ## Approved RFCs
 
@@ -140,6 +144,7 @@ decision. Express your opinions now.
 * [May 20, 2021, Online - Go vs Rust | Round table discussion](https://rustlab.it/en/rust-vs-go/)
 * [May 20, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrycchbhc/)
 * [May 25, 2021, Berlin, DE - Rust and Tell - Berline.rs](https://berline.rs/)
+* [May 27, 2021, London/Remote, UK - Runtime reflection, gRPC at scale, and more](https://www.meetup.com/Rust-London-User-Group/events/278045628/)
 * [May 27, 2021, Montréal, QC, CN - Rust MTL: Building a Scrabble AI with the fst crate - Rust Montréal](https://www.meetup.com/Rust-Montreal/events/278011978/)
 * [June 1, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/jxfdjsyccjbcb/)
 
@@ -152,6 +157,16 @@ Email the [Rust Community Team][community] for access.
 
 # Rust Jobs
 
+**NZXT**
+
+* [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
+* [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
+
+**Kollider**
+
+* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
+* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
+* [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
