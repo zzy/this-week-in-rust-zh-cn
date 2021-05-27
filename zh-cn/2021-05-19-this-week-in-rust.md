@@ -83,7 +83,7 @@
 
 如果你是 Rust 项目所有人，正在寻求贡献人员，请提交任务到[这个页面][guidelines]。
 
-*本周无参与邀请*.
+*本周无参与邀请*。
 
 [guidelines]: https://users.rust-lang.org/t/twir-call-for-participation/4821
 
@@ -107,7 +107,7 @@
 
 Rust 的改进遵循 [RFC（request for comments）流程](https://github.com/rust-lang/rfcs#rust-rfcs)。如下是本周核准实现的 RFCs：
 
-*本周无已核准的 RFCs。*
+*本周无已核准的 RFCs*。
 
 ## 新的 RFCs
 
