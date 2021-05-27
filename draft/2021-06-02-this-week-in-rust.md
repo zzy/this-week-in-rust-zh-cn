@@ -1,6 +1,6 @@
-Title: This Week in Rust 392
-Number: 392
-Date: 2021-05-26
+Title: This Week in Rust 393
+Number: 393
+Date: 2021-06-02
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -14,25 +14,15 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 
 # Updates from Rust Community
 
-No newsletters or research papers this week.
-
-### Official
+No official blog posts, newsletters, or research papers this week.
 
 ### Project/Tooling Updates
 
-* [This Week In TensorBase 4](https://tensorbase.io/thisweek/2021-05-26-tw_4/)
-
 ### Observations/Thoughts
 
-+ [Why and how we wrote a compiler in Rust (blog post series 1/X): the context](https://bnjjj.medium.com/why-and-how-we-wrote-a-compiler-in-rust-blog-post-series-1-x-the-context-e2f83b10edb9)
-
 ### Rust Walkthroughs
-- [Creating an Infinite Mixture Model in Rust with the rv crate](https://redpoll.ai/blog/imm-with-rv-12/)
-- [Debug rust application inside container](https://blog.erebe.dev/blog/debug-rust-aplication-inside-container/index.html)
-- [ZH] [Practice of web crawling with async Rust (使用 Rust 做异步数据采集的实践)](https://blog.budshome.com/budshome/shi-yong-rust-zuo-yi-bu-shu-ju-cai-ji-de-shi-jian)
-### Miscellaneous
 
-- [Rust Web Development - MEAP](https://www.manning.com/books/rust-web-development)
+### Miscellaneous
 
 # Crate of the Week
 
@@ -108,7 +98,7 @@ Revision range: [25a277..cdbe2](https://perf.rust-lang.org/?start=25a277f03df7e4
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No RFCs were approved this week.*
+* [A new prelude for the 2021 edition (trait-only edition)](https://github.com/rust-lang/rfcs/pull/3114)
 
 ## Final Comment Period
 
@@ -119,34 +109,32 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: merge] [RFC: 2021 Edition](https://github.com/rust-lang/rfcs/pull/3085)
-* [disposition: postpone] [Allow Overloading || and &&](https://github.com/rust-lang/rfcs/pull/2722)
+* [disposition: merge] [RFC: Overconstraining and omitting unsafe in impls of unsafe trait methods](https://github.com/rust-lang/rfcs/pull/2316)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
-* [disposition: merge] [stabilize const_fn_unsize](https://github.com/rust-lang/rust/pull/85078)
 * [disposition: merge] [rustc: Allow safe #[target_feature] on wasm](https://github.com/rust-lang/rust/pull/84988)
-* [disposition: merge] [stabilize int_error_matching](https://github.com/rust-lang/rust/pull/84910)
 * [disposition: merge] [Show test type during prints](https://github.com/rust-lang/rust/pull/84863)
-* [disposition: merge] [stabilize member constraints](https://github.com/rust-lang/rust/pull/84701)
-* [disposition: merge] [Move UnwindSafe, RefUnwindSafe, AssertUnwindSafe to core](https://github.com/rust-lang/rust/pull/84662)
+* [disposition: merge] [Tracking Issue for VecDeque binary search functions](https://github.com/rust-lang/rust/issues/78021)
+* [disposition: merge] [Tracking issue for WebAssembly SIMD support](https://github.com/rust-lang/rust/issues/74372)
 * [disposition: merge] [Use try_reserve in Vec's io::Write](https://github.com/rust-lang/rust/pull/84612)
-* [disposition: merge] [Add functions `Duration::try_from_secs_{f32, f64}`](https://github.com/rust-lang/rust/pull/82179)
-* [disposition: close] [Allow unused variables with todo!](https://github.com/rust-lang/rust/pull/79850)
 
 ## New RFCs
 
-* [Pinned synchronization primitives](https://github.com/rust-lang/rfcs/pull/3124)
+* [ArrayBuilder struct for safe/efficient dynamic array initialisation](https://github.com/rust-lang/rfcs/pull/3131)
+* [RFC: I/O Safety](https://github.com/rust-lang/rfcs/pull/3128)
+* [A Cargo profile option trim-path to sanitise absolute paths](https://github.com/rust-lang/rfcs/pull/3127)
 
 # Upcoming Events
 
 ### Online
-* [May 19, 2021, Vancouver, BC - Rust Study/Hack/Hang-out night - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/zppkjsycchbzb/)
-* [May 20, 2021, Online - Go vs Rust | Round table discussion](https://rustlab.it/en/rust-vs-go/)
-* [May 20, 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwrycchbhc/)
-* [May 25, 2021, Berlin, DE - Rust and Tell - Berline.rs](https://berline.rs/)
 * [May 27, 2021, London/Remote, UK - Runtime reflection, gRPC at scale, and more](https://www.meetup.com/Rust-London-User-Group/events/278045628/)
 * [May 27, 2021, Montréal, QC, CN - Rust MTL: Building a Scrabble AI with the fst crate - Rust Montréal](https://www.meetup.com/Rust-Montreal/events/278011978/)
+* [June 1, 2021, Dublin, IE - June Remote Meetup - Rust Dublin](https://www.meetup.com/Rust-Dublin/events/278409501/)
 * [June 1, 2021, Buffalo, NY, US - Buffalo Rust User Group, First Tuesdays - Buffalo Rust Meetup](https://www.meetup.com/Buffalo-Rust-Meetup/events/jxfdjsyccjbcb/)
+
+### North America
+* [June 9, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgryccjbmb/)
 
 If you are running a Rust event please add it to the [calendar] to get
 it mentioned here. Please remember to add a link to the event too.
@@ -156,17 +144,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
-**NZXT**
-
-* [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
-* [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
-
-**Kollider**
-
-* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
-* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
-* [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 
