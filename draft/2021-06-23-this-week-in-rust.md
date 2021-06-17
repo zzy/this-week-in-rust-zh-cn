@@ -1,6 +1,6 @@
-Title: This Week in Rust 395
-Number: 395
-Date: 2021-06-17
+Title: This Week in Rust 396
+Number: 396
+Date: 2021-06-23
 Category: This Week in Rust
 
 Hello and welcome to another issue of *This Week in Rust*!
@@ -19,21 +19,14 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ### Newsletters
 
 ### Project/Tooling Updates
-* [AWS-SDK-Rust: CloudFormation, SageMaker, EC2, and SES](https://github.com/awslabs/aws-sdk-rust/releases/tag/v0.0.8-alpha)
-* [Announcing Aya](https://confused.ai/posts/announcing-aya)
 
 ### Observations/Thoughts
-* [ A few thoughts on Fuchsia security](https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html)
-
-[On using Rust to implement shell history search/sync (interview with Ellie Huxtable)](https://console.dev/interviews/atuin-ellie-huxtable/)
 
 ### Rust Walkthroughs
-* [Embedded-Rust: Build & Flash binary to STM32F3DISCOVERY](https://blog.knoldus.com/embedded-rust-build-flash-binary-to-stm32f3discovery/)
 
 ### Research
 
 ### Miscellaneous
-* [Meet the Rustaceans : A series of interviews with Facebook Rust engineers](https://developers.facebook.com/blog/post/2021/06/03/meet-rustaceans-neil-mitchell/)
 
 ## Crate of the Week
 
@@ -77,7 +70,6 @@ If you are a Rust project owner and are looking for contributors, please submit 
 * [clippy: fix false positive on `semicolon_if_nothing_returned`](https://github.com/rust-lang/rust-clippy/pull/7326)
 * [clippy: fix false positive in `default_numeric_fallback` with external macro expansion](https://github.com/rust-lang/rust-clippy/pull/7325)
 * [clippy: `Vec` `extend` to `append`](https://github.com/rust-lang/rust-clippy/pull/7270)
-
 * [BPF target support](https://github.com/rust-lang/rust/pull/79608)
 * [support for force-warns](https://github.com/rust-lang/rust/pull/85788)
 * [improve debugging experience for enums on windows-msvc](https://github.com/rust-lang/rust/pull/85292)
@@ -110,7 +102,7 @@ Revision range: [1160cf..a50d721](https://perf.rust-lang.org/?start=1160cf864f2a
 Changes to Rust follow the Rust [RFC (request for comments) process](https://github.com/rust-lang/rfcs#rust-rfcs). These
 are the RFCs that were approved for implementation this week:
 
-*No new RFCs were proposed this week.*
+*No RFCs were approved this week.*
 
 ### Final Comment Period
 
@@ -121,27 +113,25 @@ decision. Express your opinions now.
 ### [RFCs](https://github.com/rust-lang/rfcs/labels/final-comment-period)
 
 * [disposition: close] [Add the boxed!() macro to "de-magic" box syntax](https://github.com/rust-lang/rfcs/pull/3057)
-* [disposition: merge] [RFC: Supertrait item shadowing](https://github.com/rust-lang/rfcs/pull/2845)
-* [disposition: merge] [Type-changing struct update syntax](https://github.com/rust-lang/rfcs/pull/2528)
 
 ### [Tracking Issues & PRs](https://github.com/rust-lang/rust/labels/final-comment-period)
 
 * [disposition: merge] [Stabilize span_open() and span_close().](https://github.com/rust-lang/rust/pull/86136)
-* [disposition: merge] [Stabilize ops::ControlFlow (just the type)](https://github.com/rust-lang/rust/pull/85608)
-* [disposition: merge] [Re-add support for parsing (and pretty-printing) inner-attributes in match body](https://github.com/rust-lang/rust/pull/85193)
+* [disposition: merge] [Redefine ErrorKind::Other and stop using it in std.](https://github.com/rust-lang/rust/pull/85746)
+* [disposition: merge] [When using process::Command on Windows, environment variable names must be case-preserving but case-insensitive](https://github.com/rust-lang/rust/pull/85270)
 * [disposition: merge] [Ignore derived Clone and Debug implementations during dead code analysis](https://github.com/rust-lang/rust/pull/85200)
-* [disposition: merge] [Tracking Issue for const core::str::from_utf8_unchecked](https://github.com/rust-lang/rust/issues/75196)
+* [disposition: merge] [Support forwarding caller location through trait object method call](https://github.com/rust-lang/rust/pull/81360)
+* [disposition: merge] [Tracking issue for ops::Bound::cloned()](https://github.com/rust-lang/rust/issues/61356)
 
 ### New RFCs
 
-* [RFC: let-else statements](https://github.com/rust-lang/rfcs/pull/3137)
+* [RFC: fallible-allocation](https://github.com/rust-lang/rfcs/pull/3140)
+* [Cargo alternative registry auth](https://github.com/rust-lang/rfcs/pull/3139)
 
 ## Upcoming Events
 
 ### Online
 
-* [June 15, 2021, Washington, DC, US - In-kernel, fast-path packet processing with AF_XDP - Rust DC](https://www.meetup.com/RustDC/events/vdhxgsyccjbtb)
-* [June 16, 2021, Vancouver, BC, CA - Rust in Mozilla's Data Platform - Vancouver Rust](https://www.meetup.com/Vancouver-Rust/events/fqpkjsyccjbvb/)
 * [June 17, 2021, Denver, CO, US - Learning Rust as a Python/Javascript developer by Juhis - Rust Denver](https://www.meetup.com/Rust-Boulder-Denver/events/277575285/)
 * [June 18, 2021, Online - Learn Rust Fundamentals | Rust 101 - KubeDaily](https://www.youtube.com/watch?v=DIxjk0HTx5U)
 * [June 29. 2021, Dallas, TX, US - Last Tuesday - Dallas Rust](https://www.meetup.com/Dallas-Rust/events/jqxqwryccjbmc/)
@@ -154,29 +144,6 @@ Email the [Rust Community Team][community] for access.
 [community]: mailto:community-team@rust-lang.org
 
 # Rust Jobs
-
-**ChainSafe Systems**
-
-* [Rust Developer (Remote)](https://jobs.smartrecruiters.com/ChainSafeSystemsInc/743999739358248-rust-developer)
-
-**Gnosis**
-
-* [Ethereum Core Developer (Remote)](https://arbeitnow.com/view/ethereum-core-developer-mwd-gnosis-126355)
-
-**Braiins**
-
-* [Rust Developer (Prague, CZ)](https://braiins.com/careers/rust-developer)
-
-**NZXT**
-
-* [Senior Software Engineer for CAM (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=259)
-* [Senior Software Engineer for Streaming Software (Remote)](https://nzxt.bamboohr.com/jobs/view.php?id=317)
-
-**Kollider**
-
-* [Junior Backend Engineer (Remote)](https://kollider.homerun.co/junior-backend-engineer/en)
-* [Senior Backend Engineer (Remote)](https://kollider.homerun.co/senior-backend-engineer/en)
-* [DevOps Engineer (Remote)](https://kollider.homerun.co/devops-engineer/en)
 
 *Tweet us at [@ThisWeekInRust](https://twitter.com/ThisWeekInRust) to get your job offers listed here!*
 ChainSafe Systems 
