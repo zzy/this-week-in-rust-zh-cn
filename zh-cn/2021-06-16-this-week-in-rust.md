@@ -86,8 +86,6 @@ CW 电视网：自杀（Suicide）、心理健康（Mental Health）
 
 有些任务可能还有导师，请访问具体任务页面，以了解更多信息。
 
-
-
 * [boa-dev/boa has some good first issues](https://github.com/boa-dev/boa/labels/good%20first%20issue)
 * [softprops/shiplift - We have too many unwrap() calls in the codebase](https://github.com/softprops/shiplift/issues/301)
 
