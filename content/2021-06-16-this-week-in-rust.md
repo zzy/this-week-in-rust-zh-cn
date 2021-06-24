@@ -15,7 +15,8 @@ If you find any errors in this week's issue, [please submit a PR](https://github
 ## Updates from Rust Community
 
 **Highlight**
-CW: Suicide, Mental Health
+
+*Content warning: Suicide, Mental Health*
 
 The following post mourns the death of somebody in the Rust community.
 This is a very sensitive topic, and it's hard to truly do justice to the loss of human life.
@@ -56,7 +57,7 @@ please visit <https://www.opencounseling.com/suicide-hotlines> for emergency and
 * [Speeding Up the WebCola Graph Viz Library with Rust + WebAssembly](https://cprimozic.net/blog/speeding-up-webcola-with-webassembly/)
 * [From NAND to Raytracer: Raytracing on the Hack computer (feat. Rust)](https://blog.alexqua.ch/posts/from-nand-to-raytracer/)
 * [Cacao: Building macOS (and iOS) Apps in Rust](https://rymc.io/blog/2021/cacao-rs-macos-ios-rust/)
-* [Build an API in Rust (Part 1)](https://dev.to/naruhodo/build-an-api-in-rust-part-1-5c4g)
+* [Build an API in Rust (Part 1)](https://dev.to/naruhodo/build-an-api-in-rust-part-1-5c43)
 * [Learn to Build a Parser in Rust for Fun and Profit](https://dev.to/pancy/learn-to-build-a-parser-in-rust-for-fun-and-profit-2id5)
 * [Beginner's Guide to Running Rust on AWS Lambda](https://dev.to/nicholaschiasson/beginner-s-guide-to-running-rust-on-aws-lambda-277n)
 * [A Command Line Key-Value Data Store using the Rust Programming Language.](https://dev.to/sirneij/a-command-line-key-value-data-store-using-the-rust-programming-language-33b6)
@@ -74,7 +75,6 @@ please visit <https://www.opencounseling.com/suicide-hotlines> for emergency and
 ### Miscellaneous
 * [Meet the Rustaceans: A series of interviews with Facebook Rust engineers](https://developers.facebook.com/blog/post/2021/06/03/meet-rustaceans-neil-mitchell/)
 * [Pop!_OS uses a lot of Rust](https://www.reddit.com/r/rust/comments/nyd1qw/pop_os_uses_a_lot_of_rust/)
-* [A few thoughts on Fuchsia security](https://blog.cr0.org/2021/06/a-few-thoughts-on-fuchsia-security.html?m=1)
 * [video] [Keynote: Bryan Cantrill - Hardware/Software Co-design: The Coming Golden Age](https://youtu.be/nY07zWzhyn4)
 
 ## Crate of the Week
