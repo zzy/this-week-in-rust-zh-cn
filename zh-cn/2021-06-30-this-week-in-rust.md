@@ -103,9 +103,7 @@ Rust 的改进遵循 [RFC（request for comments）流程](https://github.com/ru
 
 * [July 14, 2021, Atlanta, GA, US - Grab a beer with fellow Rustaceans - Rust Atlanta](https://www.meetup.com/Rust-ATL/events/qxqdgrycckbsb/)
 
-If you are running a Rust event please add it to the [calendar] to get
-it mentioned here. Please remember to add a link to the event too.
-Email the [Rust Community Team][community] for access.
+如果你正在运作一次 Rust 活动，请将其[添加到日历][calendar]中，以便在此处提及。请向 [Rust 社区团队][community]发送电子邮件，以获取访问日历权限。
 
 [calendar]: https://www.google.com/calendar/embed?src=apd9vmbc22egenmtu5l6c5jbfc%40group.calendar.google.com
 [community]: mailto:community-team@rust-lang.org
