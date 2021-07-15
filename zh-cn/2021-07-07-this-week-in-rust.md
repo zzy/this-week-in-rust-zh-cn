@@ -175,7 +175,7 @@ Rust 的改进遵循 [RFC（request for comments）流程](https://github.com/ru
 
 *通过 [@ThisWeekInRust](https://twitter.com/ThisWeekInRust)，tweet 信息给我们，以便于我们在此处列出你的招聘信息！*
 
-# 本周引语
+## 本周引语
 
 > 对于 Rust，我喜欢其的一点是：它能过滤掉懒惰或者草率的思考者。即使我不同意其他 Rust 程序员的观点，但也本着一种尊重的态度。因为通过借用检查器（borrow checker），就可以晓得他们对问题的思考已经足够深入了。
 
